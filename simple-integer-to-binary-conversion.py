@@ -5,7 +5,7 @@
 import math
 from sys import stdin
 
-x=0					                                        #Initializes the counter
+x=0					                        #Initializes the counter
 exponential = math.pow(2,x)                                     #Converts the counter to a base 2 logarithm
 A=[]                                                            #Creates an empty list to determine the highest value of P
 binaryNumber = []                                               #Creates an empty list to create the binary equivalent of the user's decimal value
@@ -14,7 +14,7 @@ print('Please enter an integer greater than or equal to 0.')    #Asks the user t
 	
 decimalNumber = int(stdin.readline())                           #The shell reads the user's decimal value
 
-while decimalNumber > 0:                                #The while loop executes as long as the number to be converted is greater than 0
+while decimalNumber > 0:                                        #The while loop executes as long as the number to be converted is greater than 0
                                                 
         exponential = math.pow(2,x)                             #Creates a seperate value for the exponential in the while loop                          
         if exponential <= decimalNumber:                        #If the log2 value is less than the original
